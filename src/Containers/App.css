@@ -1,0 +1,17 @@
+.heading--main{
+    font-size: 5rem;
+    font-family: 'Bungee Shade', cursive;
+}
+.section-main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (max-width : 450px){
+    .heading--main{
+        font-size: 2rem;
+        font-family: 'Bungee Shade', cursive;
+    }
+}

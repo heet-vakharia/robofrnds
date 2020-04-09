@@ -1,0 +1,20 @@
+.main{
+    border-top: 2px solid #000;
+    font-size: .9rem;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.input{
+    background-color: #96CCFF;
+    border: 3px solid #19A974 !important;
+    transition: all .5s ease-in;
+}
+.input:focus{
+    outline: none;
+    border-color: #357EDD !important;
+}
+.card{
+    width: 300px;
+}
